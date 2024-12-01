@@ -1,7 +1,7 @@
-from Encryption import encryption
-from Decryption import decryption
-from TextToText_Encryption import TextToText_Encryption
-from TextToText_Decryption import TextToText_Decryption
+from .Encryption import encryption
+from .Decryption import decryption
+from .TextToText_Encryption import TextToText_Encryption
+from .TextToText_Decryption import TextToText_Decryption
 
 def main():
     print("Choose an option:")
